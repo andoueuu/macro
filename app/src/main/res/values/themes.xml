@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AssistiveTouch" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF0A84FF</item>
+        <item name="colorPrimaryVariant">#FF0A84FF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FF5E5CE6</item>
+        <item name="android:statusBarColor">#FF000000</item>
+        <item name="android:windowBackground">#FF000000</item>
+    </style>
+
+    <style name="Theme.AssistiveTouch.FullScreen" parent="Theme.AssistiveTouch">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
